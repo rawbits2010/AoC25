@@ -30,3 +30,10 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# no need to upload input data or session cookie :)
+*.txt
+# except for the template
+!cmd/template/input.txt
+!cmd/template/debug.txt
+!cmd/template/session.txt
