@@ -14,5 +14,5 @@ func main() {
 	// do something with input lines
 	_ = lines
 
-	fmt.Printf("Result: %d\n", result)
+	fmt.Printf("Result - Part 1: %d. Part 2: %d\n", result, result)
 }
