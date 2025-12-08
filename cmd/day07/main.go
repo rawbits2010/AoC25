@@ -23,6 +23,9 @@ func main() {
 		}
 	*/
 
+	// NOTE: this solution took me 20 minutes to come up with
+	// while trying to figure out a progress visualization
+	// for the above commented out DFS brute-force.
 	startIdx, err := getStartIdx(lines[0])
 	if err != nil {
 		log.Fatal(err)
